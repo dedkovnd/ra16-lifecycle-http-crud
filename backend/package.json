@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "dependencies": {},
+  "main": "index.js",
+  "scripts": {
+    "prestart":"npm install",
+    "start":"forever server.js",
+    "watch":"forever -w server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
